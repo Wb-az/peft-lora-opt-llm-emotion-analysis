@@ -129,11 +129,6 @@ def inference_fn(model, dataloader, device):
     return preds, labels
 
 
-def macnemar_comparison(reference, predictions1, predictions2):
-    mcnemar = evaluate.load("mcnemar")
-    return mcnemar.compute(reference, predictions1, predictions2)
-
-
 def tokenize_function(example, tokenizer):
     return tokenizer(example["text"],padding=True, truncation=True)
 
