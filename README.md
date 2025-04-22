@@ -9,6 +9,19 @@ The dataset was sourced from kaggle.
 
 https://www.kaggle.com/datasets/nelgiriyewithana/emotions/data
 
+<table>
+    <tr>
+      <td>
+      <img src="plots/emotions_distribution.svg" width="300" height="300">
+      </td>
+      <td>
+      <img src="plots/emotions_distribution_resampling.svg" width="300" height="300">
+      </td>
+     </tr>
+</table>
+
+**Fig 1**. Emotions distribution in the dataset before and after undersampling.
+
 ### 1.2 Results
 
 |Model           |Accuracy      |Precision     | Recall      | F1         | Matthews<br>Correlation| Training duration |
